@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    background-color: #fff9fe;
+    font-family: 'Segoe UI', Helvetica, Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    width: 80%;
+    max-width: 650px;
+    height: 70vh;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 5%;
+    box-shadow: 10px 9px 24px 3px rgba(64, 61, 61, 0.69);
+    -webkit-box-shadow: 10px 9px 24px 3px rgba(64, 61, 61, 0.69);
+    -moz-box-shadow: 10px 9px 24px 3px rgba(64, 61, 61, 0.69);
+
+}
+
+.fields {
+    margin: 5% 10%;
+
+}
+
+.fields-title {
+    display: flex;
+    justify-content: center;
+}
+
+#field-text {
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(58, 58, 58);
+    margin-bottom: 5%;
+
+    margin-top: 20px;
+}
+
+.pink-font {
+    color: #e8258e;
+}
+
+.fields-textBox {
+    display: flex;
+    flex-direction: column;
+
+    height: 100px;
+    justify-content: space-around;
+
+    border-radius: 50px;
+    margin-bottom: 3%;
+}
+
+.fields-textBox>input {
+    width: 100%;
+    height: 40%;
+    border: 1px solid silver;
+    border-radius: 5px;
+    font-weight: bold;
+    padding: 0.5%;
+}
+
+.fields-remember {
+    margin-bottom: 3%;
+
+}
+
+#btnlogin {
+    width: 100%;
+    height: 50px;
+    background-color: #e8258e;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-weight: bold;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.fields-recovery>a,
+.fields-signup>a {
+    text-decoration: none;
+    color: rgb(165, 165, 165);
+
+}
+
+.fields-recovery {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 10%;
+}
+
+.fields-signup {
+    font-size: 20px;
+    display: flex;
+    font-weight: bold;
+    justify-content: center;
+
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.logo>img {
+    height: 80px;
+}
+
+@media screen and(min-width: 650px) {
+    .container {
+        margin-top: 20px;
+        
+    }
+
+    #field-text {
+        font-size: 20px;
+        border: 1px solid silver;
+    }
+
+}
